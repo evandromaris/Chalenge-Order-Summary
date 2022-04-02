@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+    margin: auto;
+    padding: 0%;
+    font-size: 16px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+
+    
+}
+
+.container{
+   width: 450px;
+   height: 650px;
+   position: relative;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   
+   background-color: #fff;
+   border-radius: 15px;
+   box-shadow: 0px 10px 40px 0px hsl(224, 23%, 55%);
+
+}
+
+.topo-img{
+    width: 450px;
+    height: 220px;
+    background-image: url(images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.text-area{
+    line-height: 1.5;
+    
+}
+
+.text-area h1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-top: 30px;
+}
+
+.text-area p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.container-price{
+    background-color: hsl(225, 100%, 98%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 90px;
+    border-radius: 10px;
+  
+}
+
+.icon{
+    display: flex;
+    position: relative;
+}
+
+.icon img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.itens-price{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    left: 90px;   
+}
+
+.itens-price h4{
+    color: hsl(223, 47%, 23%); 
+    font-weight: 900;   
+}
+
+.price{
+    position: relative;
+    top: 30px;
+    right: 90px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.itens-price a{
+    color:hsl(245, 75%, 52%);
+    position: relative;
+    top: 30px;
+    font-weight: 700;
+}
+
+.payment{
+    width: 350px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    background-color: hsl(245, 75%, 52%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px 0px hsl(224, 23%, 55%);
+}
+
+.payment p{
+    position: relative;
+    top: 15px;
+    color: hsl(225, 100%, 98%);
+    font-weight: 500;
+    
+}
+
+.cancel a{
+    color: hsl(224, 23%, 55%);
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+}
+footer {
+    font-size: 12px;
+}
+
+footer a{
+    color: hsl(245, 75%, 52%);
+   
+}
+
+@media (max-width: 900px),(max-height: 600px){
+    
+    .container{
+        width: 375px;
+        position: relative;
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;     
+
+    }
+    .topo-img{
+        width: 375px;
+        
+    }   
+    footer{
+        position: relative;
+        top: 100px;
+    }
+}
